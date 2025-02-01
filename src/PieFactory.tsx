@@ -1,5 +1,5 @@
 import { ActivityRingData } from "./ActivityRings";
-const Pie = require("paths-js/pie");
+import Pie from "paths-js/pie";
 
 const PieFactory = {
   create: (

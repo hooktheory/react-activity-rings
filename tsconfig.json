@@ -6,10 +6,13 @@
     "lib": ["dom", "esnext"],
     "moduleResolution": "node",
     "skipLibCheck": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "esModuleInterop": true
   },
   "exclude": [
     "node_modules",
     "**/*.spec.ts"
   ]
 }
+
